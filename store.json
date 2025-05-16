@@ -1,0 +1,29 @@
+{
+    "1234": {
+      "name": "VIP Role",
+      "cost": 500,
+      "description": "Grants you access to the exclusive VIP channel and other perks.",
+      "type": "role",
+      "role_id": "123456789012345678"
+    },
+    "5678": {
+      "name": "Gold Color",
+      "cost": 250,
+      "description": "Changes your name color to a shimmering gold.",
+      "type": "color",
+      "color_hex": "FFD700"
+    },
+    "9012": {
+      "name": "Profile Badge",
+      "cost": 750,
+      "description": "Adds a unique badge to your profile.",
+      "type": "badge",
+      "badge_url": "https://example.com/badge.png"
+    },
+      "3456": {
+      "name": "Nickname Change",
+      "cost": 1000,
+      "description": "Allows you to change your nickname once.",
+      "type": "nickname"
+    }
+  }
