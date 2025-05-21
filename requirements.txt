@@ -1,7 +1,11 @@
-discord.py>=2.3.0  # Or your specific version
-google-generativeai>=0.3.0 # For Gemini integration
-yt-dlp>=2023.07.06 # For the music cog (youtube-dl fork)
-PyNaCl>=1.5.0 # Often needed for voice in discord.py, usually installed as a discord.py dependency
+discord.py>=2.3.0
+google-generativeai>=0.3.0
+yt-dlp>=2023.07.06
+feedparser>=6.0.0  # For parsing RSS/Atom feeds
+aiohttp>=3.8.0     # For asynchronous HTTP requests (often a discord.py dependency too)
+PyNaCl>=1.5.0
 
 # Optional, but good for .env file management if you choose to use it for tokens
 # python-dotenv>=0.20.0
+# Optional, for testing
+# pytest>=7.0.0
